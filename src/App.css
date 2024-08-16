@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+.body {
+  margin-top: 50px;
+  max-width: 600px; /* Set maximum width */
+  margin: 0 auto; /* Center the element */
+  padding: 20px; /* Add some padding */
+  border-radius: 15px; /* Rounded corners */
+  background-color: #f0f8ff; /* Light blue background */
+  border: 2px solid #007bff; /* Blue border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+img{
+ filter: sepia(20%) saturate(1000%) hue-rotate(1deg);
+}
+.form {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between input and button */
+  margin-bottom: 20px; /* Space below the form */
+}
+
+input[type="search"] {
+  flex: 1; /* Take up available space */
+  padding: 10px; /* Padding for input */
+  border: 1px solid #007bff; /* Blue border for input */
+  border-radius: 5px; /* Rounded corners for input */
+  outline: none; /* Remove outline on focus */
+}
+
+input[type="search"]:focus {
+  border-color: #0056b3; /* Darker blue on focus */
+}
+
+.button {
+
+  padding: 10px 15px; /* Padding for button */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+  margin-left:5px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display:flex;
+  justify-content: space-between;
+}
+
+li {
+  margin: 10px 0; /* Space between list items */
+  font-size: 1.2em; /* Increase font size */
+}
