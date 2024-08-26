@@ -10,8 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Weather/>
-    This was coded by Kylie Amade.
+    <Weather />
+    <div className="git">
+      This project was coded by{" "}
+      <a href="https://github.com/kylie-amade/my-app">Kylie Amade</a> .
+    </div>
   </React.StrictMode>
 );
 

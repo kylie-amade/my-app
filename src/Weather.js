@@ -44,13 +44,19 @@ export default function Weather() {
             Search
           </button>
         </form>
-        <ul>
-          <li>Temperature: {Math.round(message.temperature)}°C</li>
-          <li>Description: {message.description}</li>
-          <li>Humidity: {message.humidity}%</li>
-          <li>Wind: {message.wind}km/h</li>
-        </ul>
-        <img src={message.icon} alt={message.description} />
+        <div className="display">
+          <div>
+            <ul>
+              <li>Temperature: {Math.round(message.temperature)}°C</li>
+              <li>Description: {message.description}</li>
+              <li>Humidity: {message.humidity}%</li>
+              <li>Wind: {message.wind}km/h</li>
+            </ul>
+          </div>
+          <div>
+            <img src={message.icon} alt={message.description} />
+          </div>
+        </div>
       </div>
     );
   } else {

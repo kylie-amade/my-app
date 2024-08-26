@@ -46,9 +46,7 @@
   border: 2px solid #007bff; /* Blue border */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
-img{
- filter: sepia(20%) saturate(1000%) hue-rotate(1deg);
-}
+
 .form {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space between input and button */
@@ -86,11 +84,22 @@ input[type="search"]:focus {
 ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0; /* Remove padding */
-  display:flex;
-  justify-content: space-between;
+  
 }
 
 li {
   margin: 10px 0; /* Space between list items */
   font-size: 1.2em; /* Increase font size */
+}
+.git{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+a{
+  text-decoration: none;
+}
+.display{
+  display:flex;
+  justify-content: space-evenly;
 }
