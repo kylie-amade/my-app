@@ -11,6 +11,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Weather/>
+    This was coded by Kylie Amade.
   </React.StrictMode>
 );
 
